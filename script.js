@@ -11,8 +11,8 @@ window.addEventListener("load", function(){
     let form = this.document.querySelector("form")
     let search = this.document.querySelector("input")
     window.addEventListener("submit", function (event) {
-        inputthis.addEventListener
-        alert(event.target.getAttribute("name"));
+        //inputthis.addEventListener
+        alert(document.request.body);
     })
     //when a radio is selected that value is the one i want
     //so javascript needs access to that value
