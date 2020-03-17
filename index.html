@@ -6,17 +6,25 @@
 
 <body>
 
-	<form method="GET" action="https://www.google.com/search">
+	<form method="GET" action="">
 		<!-- search field -->
 		<label for="q">Search</label>
-		<input name="q" type="search">
+		<input id="q" name="search" type="search">
 		
 		<!-- seach engine -->
-		<label for="search_engine"></label>
-		<input name="search_engine" type="radio" value="https://www.google.com/search">
-			Goolge
-		</input>	
-		<button type="submit">GO!</button>
+		<input id="google_search" type="radio" name="search_engine"  value="google" checked="true">
+		<label for="google_search">Google</label>
+
+		<input id="duck_search" type="radio" name="search_engine" value="duck">
+		<label for="duck_search">DuckDuckGo</label>
+
+		<input id="bing" type="radio" name="search_engine" value="bing">
+		<label for="bing">Bing</label>
+
+		<input id="ask" type="radio" name="search_engine" value="ask">
+		<label for="ask">Ask</label>	
+
+		<button type="submit" value="go">GO!</button>
 	</form>
 	<script src="script.js"></script>
 </body>
