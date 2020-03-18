@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  #searchText {
+    font-size: 18pt;
+    color:blue;
+  }
+  
+  #q{
+    width: 400px;
+    margin-right: 13px;
+  }

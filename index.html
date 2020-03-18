@@ -2,17 +2,17 @@
 
 <head>
 	<meta charset="utf-8">
-</head>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css" /></head>
 
 <body>
-
+	<hr>
 	<form method="GET" action="">
 		<!-- search field -->
-		<label for="q">Search</label>
+		<label id="searchText" for="q">Search</label>
 		<input id="q" name="q" type="search">
 		
 		<!-- search engine -->
-		<input id="google_search" type="radio" name="search_engine"  value="google">
+		<input id="google_search" type="radio" name="search_engine" checked="true" value="google">
 		<label for="google_search">Google</label>
 
 		<input id="duck_search" type="radio" name="search_engine" value="duck">
